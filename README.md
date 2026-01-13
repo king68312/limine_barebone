@@ -4,8 +4,6 @@
 
 ## 概要
 
-参考:https://wiki.osdev.org/Limine_Bare_Bones
-
 このコードは、Limineブートローダーを使用して起動し、フレームバッファに直接描画を行う最小限のカーネルです。
 
 ## 起動の流れ
@@ -183,3 +181,4 @@ qemu-system-x86_64 -cdrom image.iso -boot d -m 512M -cpu qemu64 -enable-kvm
 
 - [Limine Bootloader](https://github.com/limine-bootloader/limine)
 - [OSDev Wiki](https://wiki.osdev.org/)
+- [OSDev Limine Bare Bones](https://wiki.osdev.org/Limine_Bare_Bones)
