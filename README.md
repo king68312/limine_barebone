@@ -4,6 +4,8 @@
 
 ## 概要
 
+参考:https://wiki.osdev.org/Limine_Bare_Bones
+
 このコードは、Limineブートローダーを使用して起動し、フレームバッファに直接描画を行う最小限のカーネルです。
 
 ## 起動の流れ
