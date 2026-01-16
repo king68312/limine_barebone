@@ -2,6 +2,13 @@
 
 シンプルな自作OSカーネルのサンプルです。PCを起動して画面に斜めの白い線を描きます。
 
+
+## 参考リンク
+
+- [Limine Bootloader](https://github.com/limine-bootloader/limine)
+- [OSDev Wiki](https://wiki.osdev.org/)
+- [OSDev Limine Bare Bones](https://wiki.osdev.org/Limine_Bare_Bones)
+
 ## 概要
 
 このコードは、Limineブートローダーを使用して起動し、フレームバッファに直接描画を行う最小限のカーネルです。
@@ -166,19 +173,3 @@ ENTRY(kmain)            // 開始地点はkmain関数
 # ISOイメージをQEMUで起動
 qemu-system-x86_64 -cdrom image.iso -boot d -m 512M -cpu qemu64 -enable-kvm
 ```
-
-## 次のステップ
-
-これが自作OSの最初の一歩です。ここから以下の機能を追加していくことで本格的なOSになっていきます：
-
-- 文字表示
-- キーボード入力
-- メモリ管理
-- プロセス管理
-- ファイルシステム
-
-## 参考リンク
-
-- [Limine Bootloader](https://github.com/limine-bootloader/limine)
-- [OSDev Wiki](https://wiki.osdev.org/)
-- [OSDev Limine Bare Bones](https://wiki.osdev.org/Limine_Bare_Bones)
